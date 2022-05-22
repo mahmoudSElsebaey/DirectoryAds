@@ -1,0 +1,118 @@
+.sec1-contact {
+    width: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+}
+
+.sec1-contact .container {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.sec1-contact .contact-content {
+    width: 60%;
+    padding: 70px 50px;
+    background-color: #fff;
+    /* border: 1px solid rgb(0, 217, 255); */
+}
+
+.contact-content form {
+    line-height: 2.5;
+}
+
+.contact-content form input,
+.contact-content form textarea {
+    width: 100%;
+    padding: 9px 10px;
+    font-size: 18px;
+    outline: none;
+    /* border: 1px sold #ced4da; */
+}
+
+.contact-content form input:focus{
+    border: 1px solid #2f89fc;
+}
+.contact-content form label {
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.contact-content .input-name {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-content .input-name .name {
+    width: 47%;
+}
+
+.contact-content button {
+    background-color: #2f89fc;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    border: none;
+    transition: .5s;
+}
+
+.contact-content button:hover {
+    background-color: rgb(0, 106, 255);
+    cursor: pointer;
+}
+
+/* ----------------------- part 2 ------------------------------ */
+.part2-content {
+    width: 35%;
+    /* border: 1px solid rgb(72, 255, 0); */
+}
+
+.sec1-p2,
+.sec2-p2 {
+    background-color: #fff;
+    color: gray;
+    font-weight: normal;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+
+.sec1-p2 h4,
+ .sec2-p2 h4 {
+    padding-top: 30px;
+    padding-bottom: 7px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.sec1-p2 a {
+    color: #2f89fc;
+}
+
+.sec1-p2 a:hover {
+    color: #0768e6;
+}
+
+.sec2-p2 {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.sec2-p2 h4 {
+    font-size: 20px;
+}
+
+.sec2-p2 button {
+    background-color: #2f89fc;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    border: none;
+    transition: .5s;
+    margin-top: 20px;
+}

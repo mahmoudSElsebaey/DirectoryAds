@@ -1,0 +1,58 @@
+
+/* ------------------------------------ Section register page -------------------------- */
+.sec-login-page {
+    width: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+}
+
+.sec-login-page .container {
+    width: 48%;
+    margin: 80px auto;
+    /* border: 1px solid red; */
+}
+
+.sec-login-page h2 {
+    font-weight: normal;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.sec-login-page form {
+    width: 100%;
+    padding: 40px 50px;
+    background-color: #fff;
+    margin-top: 50px;
+    line-height: 2.5;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-login-page form label {
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: 100;
+}
+
+.sec-login-page form input {
+    height: 45px;
+    border: 1px solid rgba(120, 119, 119, 0.33);
+    padding-left: 10px;
+}
+
+.sec-login-page form .btn-login {
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    background-color: #2f89fc;
+    text-transform: capitalize;
+    color: #fff;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.sec-login-page form .btn-login:hover {
+    background-color: #1169dc;
+}

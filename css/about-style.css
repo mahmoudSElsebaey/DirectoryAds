@@ -1,0 +1,139 @@
+/* ---------------------------------------- Section 1 about page ------------------------------------- */
+.sec1-about {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.sec1-about .container {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(0, 204, 255); */
+}
+
+.sec1-about .sec1-about-img {
+    width: 48%;
+}
+
+.sec1-about .sec1-about-info {
+    width: 40%;
+    color: rgb(88, 86, 86);
+}
+
+.sec1-about .sec1-about-info h2 {
+    color: #2f89fc;
+    font-weight: normal;
+    font-size: 35px;
+
+}
+
+.sec1-about .sec1-about-info p {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.sec1-about .sec1-about-info ul {
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.sec1-about .sec1-about-info ul li i {
+    color: #2f89fc;
+    padding: 5px 10px;
+}
+
+/* ---------------------------------------- Section 2 about page ------------------------------------- */
+.sec2-about {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.sec2-about .container {
+    width: 80%;
+    margin: 100px auto;
+    /* border: 1px solid rgb(0, 204, 255); */
+}
+
+.sec2-about .sec2-about-content {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.sec2-about .sec2-about-info {
+    width: 48%;
+}
+
+.sec2-about .sec2-about-info p {
+    line-height: 1.8;
+}
+
+.sec2-about .sec2-about-info a {
+    color: #2f89fc;
+    margin-top: 20px;
+    display: block;
+}
+
+/* ---------------------------------------- Section 2 about page ------------------------------------- */
+.sec3-about {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.sec3-about .container {
+    width: 80%;
+    margin: 100px auto;
+    /* border: 1px solid rgb(0, 204, 255); */
+}
+
+.sec3-about .sec3-about-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(88, 86, 86);
+    margin-top: 40px;
+}
+
+.team-parent {
+    width: 23%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.team-parent::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    z-index: -1;
+}
+
+.team-parent:hover::after {
+    width: 100%;
+    height: 52%;
+}
+
+.team-parent figcaption {
+    font-size: 26px;
+}
+
+.team-parent span {
+    color: #2f89fc;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 10px 0px 20px;
+    display: block;
+}
+
+.team-parent p {
+    line-height: 1.5;
+}
